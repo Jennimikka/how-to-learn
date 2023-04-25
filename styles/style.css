@@ -133,6 +133,52 @@ div {
   font-size: 24px;
   font-weight: 600;
 }
+.digits {
+  margin: auto 100px auto 100px;
+  position: relative;
+}
+.section-title {
+  width: 60%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+.section-subtitle {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.table {
+  width: 1100px;
+  top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.table_cell {
+}
+.table_heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  bottom: 20px;
+}
+.table_text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
