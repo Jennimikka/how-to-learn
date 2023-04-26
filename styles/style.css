@@ -178,6 +178,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: baseline;
   justify-content: space-between;
   outline: 1px solid #2f80ed;
 }
@@ -199,7 +200,61 @@ a:hover {
   font-weight: normal;
   margin-top: 20px;
 }
+.feynman {
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 890px;
+  outline: 1px solid red;
+}
+.feynman_title {
+  width: 648px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+.feynman_subtitle {
+  margin-top: 70px;
+  display: flex;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
 
+}
+.feynman_link {
+  top: 50%;
+  right: 45px;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  z-index: 1;
+  outline: 1px solid red;
+}
+
+.feynman_illustration {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  justify-content: space-between
+  z-index: -1;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
