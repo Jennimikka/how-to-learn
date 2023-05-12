@@ -97,10 +97,12 @@ a:hover {
 .description {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 .two-columns {
   width: 80%;
-  margin: 100px auto 100px auto;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -143,8 +145,9 @@ a:hover {
   font-weight: 600;
 }
 .digits {
-  margin: auto 100px auto 100px;
   position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .section-title {
   width: 60%;
@@ -200,7 +203,7 @@ a:hover {
   margin-top: 20px;
 }
 .feynman {
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   position: relative;
   justify-content: flex-start;
@@ -222,12 +225,12 @@ a:hover {
   /*outline: 1px solid red;*/
 }
 .feynman_subtitle {
-  margin-top: 70px;
   display: flex;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   position: relative;
+  margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
   /*outline: 1px solid red;*/
@@ -256,6 +259,7 @@ a:hover {
   z-index: 0;
 }
 .kaufman {
+  padding: 90px 0 90px 0;
   position: relative;
   background-color: #1f1f1f;
   display: flex;
@@ -263,7 +267,6 @@ a:hover {
   overflow: hidden;
 }
 .section-title_theme_dark {
-  margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -293,7 +296,6 @@ a:hover {
   /*outline: 1px solid red;*/
 }
 .table_theme_dark {
-  margin-bottom: 90px;
   z-index: 1;
   /*outline: 1px solid red;*/
 }
@@ -330,39 +332,45 @@ a:hover {
 }
 .footer {
   min-height: 350px;
+  padding: 60px 0 40px 0;
   position: relative;
   background-color: #1f1f1f;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  /*outline: 1px solid red;*/
 }
 .footer_columns {
   color: white;
   width: 90%;
-  margin: auto 60px auto 40px;
   display: flex;
   flex-direction: row;
   position: relative;
   justify-content: space-between;
+  /*outline: 1px solid red;*/
 }
 .footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
+  /*outline: 1px solid red;*/
 }
 .logo_place_footer {
-  top: 18px;
-  bottom: 18px;
+  color: white;
+  /*outline: 1px solid red;*/
 }
 .footer_autor {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  /*outline: 1px solid red;*/
 }
 .footer_column {
-  top: 20px;
-  bottom: 16px;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 .footer__column_content_info {
   line-height: 30px;
@@ -370,6 +378,7 @@ a:hover {
 }
 .footer_column-heading {
   font-weight: 600;
+  margin-top: 0;
 }
 
 .footer_column-links {
