@@ -265,7 +265,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-}
+  }
 .section-title_theme_dark {
   margin-left: auto;
   margin-right: auto;
@@ -323,12 +323,15 @@ a:hover {
   z-index: 2;
 }
 .kaufman_triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
   position: absolute;
   width: 877px;
   height: 877px;
   right: -210px;
   top: 0;
-  z-index: 0;
+
+
 }
 .footer {
   min-height: 350px;

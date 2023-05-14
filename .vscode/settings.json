@@ -1,0 +1,8 @@
+{
+  "files.eol": "\n",
+  "editor.autoClosingBrackets": "never",
+  "editor.codeActionsOnSave": {},
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "typescript.autoClosingTags": false
+}
