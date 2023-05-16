@@ -39,7 +39,7 @@ a:hover {
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 1;
+  z-index: 2;
 }
 .header__title {
   width: 730px;
@@ -51,7 +51,7 @@ a:hover {
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
-  z-index: 1;
+  z-index: 2;
   /*outline: 1px solid red;*/
 }
 .header__subtitle {
@@ -62,7 +62,7 @@ a:hover {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 1;
+  z-index: 2;
   /*outline: 1px solid red;*/
 }
 .header__link {
@@ -77,7 +77,6 @@ a:hover {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-width: 50%;
   z-index: 1;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -85,7 +84,7 @@ a:hover {
   height: 568px;
   width: 568px;
   right: 0;
-  padding-top: 64px;
+  top: 64px;
   z-index: 0;
   background-color: #2f80ed;
   position: absolute;
@@ -103,6 +102,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   /*outline: 1px solid #2f80ed;*/
 }
 .two-columns__brief {
@@ -137,11 +137,14 @@ a:hover {
   font-weight: 600;
 }
 .digits {
+  margin-top: 0;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .section-title {
+  padding-top: 0;
+  margin-top: 0;
   width: 60%;
   margin-bottom: 20px;
   display: flex;
@@ -175,14 +178,14 @@ a:hover {
 }
 .table__cell {
   width: 250px;
+  margin-top: 60px;
   /*outline: 1px solid #2f80ed;*/
 }
 .table__heading {
-  margin-top: 60px;
+
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  bottom: 20px;
   /*outline: 1px solid #2f80ed;*/
 }
 .table__text {
@@ -204,6 +207,8 @@ a:hover {
 .feynman__title {
   padding-top: 0;
   margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0 ;
   width: 648px;
   display: flex;
   text-align: center;
@@ -259,40 +264,38 @@ a:hover {
   overflow: hidden;
   }
 .section-title_theme_dark {
- color: #fff;
+  margin-top: 0 ;
+  margin-bottom: 0;
+  color: #fff;
   z-index: 2;
   /*outline: 1px solid red;*/
 }
 .section-subtitle_theme_dark {
-  margin-top: 20px;
   color: #fff;
+  padding: 0;
+  margin-bottom: 0;
   z-index: 2;
   /*outline: 1px solid red;*/
 }
 .table_theme_dark {
   z-index: 1;
+  padding: 0;
   /*outline: 1px solid red;*/
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  top: 80px;
   width: 200px;
   color: #fff;
-  margin-right: 0;
   margin-top: 80px;
+
+
   /*outline: 1px solid red;*/
 }
 .table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
   color: #fff;
   z-index: 2;
 }
 .table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
   color: #fff;
   z-index: 2;
 }
@@ -304,6 +307,8 @@ a:hover {
   height: 877px;
   right: -210px;
   top: 0;
+
+
 }
 .footer {
   min-height: 350px;
@@ -339,13 +344,11 @@ a:hover {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
   /*outline: 1px solid red;*/
-}
-.footer__column {
-  margin-top: 20px;
-  margin-bottom: 16px;
 }
 .footer__column_content_info {
   line-height: 30px;
@@ -357,9 +360,13 @@ a:hover {
 }
 
 .footer__column-links {
-  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 16px;
 }
 .footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
   color: #fff;
 }
 .footer__column-icon {
