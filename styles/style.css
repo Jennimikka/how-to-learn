@@ -298,8 +298,6 @@
   width: 200px;
   color: #fff;
   padding-top: 80px;
-  
-
   /*outline: 1px solid red;*/
 }
 .table__heading_theme_dark {
@@ -364,13 +362,16 @@
 .footer__column-heading {
   font-weight: 600;
   margin-top: 0;
+  margin-bottom: 0;
 }
 .footer__column-links {
-  margin-top: 20px;
-  margin-bottom: 16px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 16px;
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
+
 }
 .footer__column-link {
   line-height: 30px;
