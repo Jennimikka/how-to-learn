@@ -25,6 +25,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 .logo {
@@ -131,6 +132,58 @@
   font-size: 24px;
   font-weight: 600;
 }
+.techniques {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding-top: 100px;
+
+}
+.section-title__techniques {
+  width: 60%;
+}
+.section-subtitle__techniques {
+  width: 60%;
+}
+.cards {
+  width: 920px;
+  display: flex;
+  margin: 0 auto 0 auto;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 240px;
+  padding-right: 100px;
+
+
+}
+.cards__item:nth-child(3n) {
+  padding-right: 0;
+}
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 60px 40px 0 40px;
+  outline: solid 1px red;
+}
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video__iframe {
+  padding-right: 20px;
+}
+.video__iframe:last-child {
+  padding-right: 0;}
+
 .digits {
   margin-top: 0;
   position: relative;
@@ -387,4 +440,16 @@
 .footer__column_content_social {
   line-height: 30px;
   font-size: 18px;
+}
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+.rotation {
+animation: rotation 30s linear infinite;
+transform: scale(1.1);
 }
