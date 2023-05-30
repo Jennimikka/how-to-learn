@@ -1,0 +1,9 @@
+.table__heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  list-style-type: none;
+  /*outline: 1px solid #2f80ed;*/
+}
