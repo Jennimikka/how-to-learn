@@ -7,6 +7,6 @@
   }
 }
 .rotation {
-animation: rotation 30s linear infinite;
-transform: scale(1.1);
+animation: rotation 20s linear infinite;
+
 }
