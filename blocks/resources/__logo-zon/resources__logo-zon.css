@@ -7,5 +7,6 @@
   display: flex;
   justify-content: space-around;
   padding-top: 80px;
+  padding-left: 0;
   list-style-type: none;
 }
